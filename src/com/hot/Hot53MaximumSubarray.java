@@ -1,4 +1,4 @@
-package com.company;
+package com.hot;
 
 public class Hot53MaximumSubarray {
 

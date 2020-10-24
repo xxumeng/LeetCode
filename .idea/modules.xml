@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../IDEA/ems_vue/ems_vue.iml" filepath="$PROJECT_DIR$/../IDEA/ems_vue/ems_vue.iml" />
     </modules>
   </component>
 </project>
