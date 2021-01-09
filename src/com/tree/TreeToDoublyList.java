@@ -24,7 +24,6 @@ class Node {
 public class TreeToDoublyList {
     Node listHead = new Node(0, null, null);
     Node pre = listHead;
-    Queue<Node> queue = new ArrayDeque<>();
     public void traverse(Node root){
         if (root==null) return;
         traverse(root.left);
@@ -35,18 +34,8 @@ public class TreeToDoublyList {
     }
     public Node treeToDoublyList(Node root) {
         traverse(root);
-
-//        while(queue!=null){
-//            Node p = queue.poll();
-//            if(p==null) break;
-////            System.out.println(p.val);
-//            pre.right = p;
-//            p.left = pre;
-//            pre = p;
-//        }
         pre.right = listHead.right;
         listHead.right.left = pre;
-//        return listHead.right;
         return listHead;
     }
 
