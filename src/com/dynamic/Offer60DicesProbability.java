@@ -20,6 +20,7 @@ public class Offer60DicesProbability {
         for(int i=2; i<=n;i++){
             for (int j = 1; j <= 6*i; j++) {
                 for (int k = 1; k <=6 ; k++) {
+                    //投掷完n−1 枚骰子后，对应点数 j-1, j-2, j-3, ... , j-6j−1,j−2,j−3,...,j−6 出现的次数之和转化过来
                     //i个骰子，面数朝上的和j。 += i-1个骰子，和为j-k
                     if(j-k>0) dp[i][j] += dp[i-1][j-k];
                     else break;
