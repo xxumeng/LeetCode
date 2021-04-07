@@ -161,7 +161,7 @@ public class AllSort {
             sift(arr, i, high);
         }
         System.out.println("堆构造完成："+ Arrays.toString(arr));
-        //2. 堆排序
+        //2. 挨个出数
         // 堆顶i， 尾部j
         for (int j=high; j>=0; j--){
             int tmp = arr[0];

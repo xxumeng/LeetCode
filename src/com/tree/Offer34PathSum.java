@@ -4,10 +4,11 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+
 public class Offer34PathSum {
 //    插入、删除操作频繁，array也可以，都是在尾部插入删除
 //    注意终止条件
-    List<List<Integer>> res = new LinkedList<>();
+    List<List<Integer>> res = new ArrayList<>();
     List<Integer> track = new ArrayList<>();
     public void backtrack(TreeNode root, int sum){
         if (root==null) return;

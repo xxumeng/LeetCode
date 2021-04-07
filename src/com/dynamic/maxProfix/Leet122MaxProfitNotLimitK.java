@@ -1,8 +1,8 @@
-package com.dynamic;
+package com.dynamic.maxProfix;
 /*
 * 不限制交易次数k
 * */
-public class Leet122MaxProfit {
+public class Leet122MaxProfitNotLimitK {
     public int maxProfit(int[] prices) {
         if (prices.length==0) return 0;
         int dp0 = 0;

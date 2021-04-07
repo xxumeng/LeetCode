@@ -1,6 +1,6 @@
 package com.listNode;
 
-public class ReverseKGroup {
+public class Leet25ReverseKGroup {
 //    反转[a,b)区间，返回新的头
     public ListNode reverse(ListNode a, ListNode b){
         ListNode pre=null, behind= null;

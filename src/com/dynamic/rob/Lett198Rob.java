@@ -1,4 +1,4 @@
-package com.dynamic;
+package com.dynamic.rob;
 /*
 * 打家劫舍1
 *

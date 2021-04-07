@@ -1,6 +1,6 @@
 package com.listNode;
 
-public class Palindrome {
+public class Lee234Palindrome {
     public ListNode reverse(ListNode head){
         ListNode pre = null, nxt = null;
         while(head!=null){

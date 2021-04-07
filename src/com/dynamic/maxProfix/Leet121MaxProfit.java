@@ -1,4 +1,4 @@
-package com.dynamic;
+package com.dynamic.maxProfix;
 
 public class Leet121MaxProfit {
     public int maxProfit(int[] prices) {

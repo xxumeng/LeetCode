@@ -2,7 +2,7 @@ package com.dynamic.maxProfix;
 /*
 * 每次卖出后必须隔一天才能买入
 * */
-public class Leet309MaxProfixNextDay {
+public class Leet309MaxProfitNextDay {
     public int maxProfit(int[] prices) {
         if (prices.length==0) return 0;
         int dp0_1 = 0,dp0_2 = 0;
